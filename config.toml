@@ -1,7 +1,7 @@
 theme = "soho"
 baseurl = "https://example.com/"
 languageCode = "en"
-title = "Soho Theme"
+title = "Francesca Giardine"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 summarylength = 10
@@ -9,12 +9,12 @@ enableEmoji = true
 paginate = 5
 
 [params]
-title = "Soho Theme"
-description = "Example Blog"
+title = "Francesca Giardine"
+description = "Personal Website"
 # gravatar = "soho@example.com"
 images = ["images/profile.png"]
 profilePicture = "images/profile.png"
-copyright = "Author Name"
+copyright = "Giardine"
 license = "CC BY-SA 4.0"
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 builtWith = true
