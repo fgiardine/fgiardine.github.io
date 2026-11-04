@@ -38,6 +38,16 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=ZNn0qHAAAAAJ&hl=en&oi=ao"
   orcid            : "https://orcid.org/yourorcidurl"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/yourorcidurl"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : ""
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
+
   
 
 
