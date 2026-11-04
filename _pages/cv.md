@@ -7,12 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-<div style="margin-bottom: 20px;">
-  <a href="{{ base_path }}/files/paper1.pdf" class="btn btn--primary" target="_blank">Download PDF Version</a>
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="{{ site.baseurl }}/files/paper1.pdf" class="btn btn--primary btn--large" target="_blank">📥 Download Full CV (PDF)</a>
 </div>
 
-<div style="width: 100%; height: 800px; border: 1px solid #eaeaea;">
-  <iframe src="{{ base_path }}/files/cv.pdf" width="100%" height="100%" style="border: none;">
-    <p>Your browser does not support PDFs. <a href="{{ base_path }}/files/cv.pdf">Download the PDF</a> instead.</p>
-  </iframe>
-</div>
+<p style="text-align: center;"><small>If the viewer below does not load on your device, use the button above to download or view the PDF directly.</small></p>
+
+<object data="{{ site.baseurl }}/files/paper1.pdf" type="application/pdf" width="100%" height="900px" style="border: 1px solid #ccc;">
+  <embed src="{{ site.baseurl }}/files/paper1.pdf" type="application/pdf" width="100%" height="900px" />
+    <p>Your browser does not support PDFs. <a href="{{ site.baseurl }}/files/paper1.pdf">Download the PDF</a> instead.</p>
+</object>
