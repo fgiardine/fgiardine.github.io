@@ -4,9 +4,7 @@ permalink: /research/
 title: "Research"
 author_profile: true
 ---
-My pedagogical values are grounded in 1) hands-on learning opportunities, 2) solving real-world problems, and 3) treating learning as a collective effort. These philosophies translate directly into my classroom approach. I encourage students to get their hands dirty with tough concepts, ask questions freely, and to learn from each other. To uphold my end of the "collective" part of learning, I put time and effort into my own continued education in teaching. 
-
-On a personal note, I benefitted tremendously from my experience as an undergraduate student at Smith College, a liberal arts institution. At a small school, I had the opportunity to get to know my professors, and their support was essential in my success. This caring approach to instruction and mentorship resonated with me deeply, and I strive to apply it in my own practice.
+This page has some details about my previous research in capacitor-based power converters. I look forward to updating it with my postdoctoral research soon!
 
 Electromagnetic Interference for High-Performance Converters
 ======
