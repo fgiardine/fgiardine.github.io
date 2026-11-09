@@ -11,14 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Publications</h2>
+<!-- Journal Articles Section -->
+<h2>Journal Articles</h2>
 <hr />
 
-{% for item in site.data.publications %}
+{% assign journals = site.data.publications | where: "type", "journal" | sort: "year" | reverse %}
+{% for item in journals %}
   <div class="list__item" style="margin-bottom: 1.25em;">
     <article class="archive__item">
 
-      <!-- 1. Title (links to DOI if present) -->
+      <!-- 1. Title -->
       <h3 class="archive__item-title" style="margin-bottom: 0.25em; font-size: 1.1em;">
         {% if item.doi and item.doi != "" %}
           <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
@@ -27,7 +29,7 @@ author_profile: true
         {% endif %}
       </h3>
 
-      <!-- 2. Authors, Venue, Citation (Tight layout, no download links) -->
+      <!-- 2. Authors, Venue, Citation -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
           {{ item.authors }}<br />
@@ -35,6 +37,45 @@ author_profile: true
 
         {% if item.venue %}
           Published in <i>{{ item.venue }}</i>{% if item.year %}, {{ item.year }}{% endif %}{% if item.note %} {{ item.note }}{% endif %}<br />
+        {% elsif item.note %}
+          {{ item.note }}<br />
+        {% endif %}
+
+        {% if item.citation %}
+          Recommended citation: {{ item.citation }}
+        {% endif %}
+      </p>
+
+    </article>
+  </div>
+{% endfor %}
+
+<!-- Conference Proceedings Section -->
+<h2>Conference Proceedings</h2>
+<hr />
+
+{% assign conferences = site.data.publications | where: "type", "conference" | sort: "year" | reverse %}
+{% for item in conferences %}
+  <div class="list__item" style="margin-bottom: 1.25em;">
+    <article class="archive__item">
+
+      <!-- 1. Title -->
+      <h3 class="archive__item-title" style="margin-bottom: 0.25em; font-size: 1.1em;">
+        {% if item.doi and item.doi != "" %}
+          <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h3>
+
+      <!-- 2. Authors, Venue, Citation -->
+      <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
+        {% if item.authors %}
+          {{ item.authors }}<br />
+        {% endif %}
+
+        {% if item.venue %}
+          In <i>{{ item.venue }}</i>{% if item.year %}, {{ item.year }}{% endif %}{% if item.note %} {{ item.note }}{% endif %}<br />
         {% elsif item.note %}
           {{ item.note }}<br />
         {% endif %}
