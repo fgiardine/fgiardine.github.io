@@ -17,15 +17,11 @@ Weekly live lecture demonstrations make key concepts tangible. We prioritize dem
 
 As a GSI, I am most proud that many students in the course begin without prior circuit theory exposure, and by the end of the course are able to confidently analyze the operation of AC-DC/DC-AC power converters. 
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/demo.png" width="80%"/><br/>
-Lightbulb dimmer demo showing the use of phase-controlled rectifiers. <br/>
-</center>
+{% include base_path %}
+<div style="text-align: center; margin: 1.5em 0;">
+  <img src="{{ base_path }}/images/demo.png" style="width: 80%; height: auto; display: block; margin: 0 auto 8px;" />
+  <span style="font-size: 0.9em; line-height: 1.3;">Lightbulb dimmer demo showing the use of phase-controlled rectifiers.</span>
 </div>
-</div>
-<br/>
 
 Formal Pedagogical Training & Professional Development
 ======
