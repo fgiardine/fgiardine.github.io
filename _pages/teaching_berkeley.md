@@ -25,3 +25,11 @@ Lightbulb dimmer demo showing the use of phase-controlled rectifiers. <br/>
 </div>
 </div>
 <br/>
+
+Formal Pedagogical Training & Professional Development
+======
+* **Scholarship and Teaching for Engineering Postdocs (STEP) Program** | *University of Illinois Urbana-Champaign (UIUC)*  
+  *Selective postdoctoral program focused on evidence-based teaching methodologies, course design, and advanced pedagogical strategies for engineering educators.*
+
+* **Certificate in Teaching and Learning in Higher Education** | *UC Berkeley* — *Fall 2025*  
+  *Completed an optional certificate program to better prepare myself to develop and teach undergraduate courses. Beyond additional training, I have had the opportunity to work on course design and hone my pedagogical philosophies. 
