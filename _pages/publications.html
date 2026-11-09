@@ -32,7 +32,7 @@ author_profile: true
       <!-- 2. Authors, Venue, Citation -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
-          {{ item.authors }}<br />
+          {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' }}<br />
         {% endif %}
 
         {% if item.venue %}
@@ -71,7 +71,7 @@ author_profile: true
       <!-- 2. Authors, Venue, Citation -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
-          {{ item.authors }}<br />
+          {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' }}<br />
         {% endif %}
 
         {% if item.venue %}
