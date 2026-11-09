@@ -28,10 +28,8 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-  <li style="white-space: normal; word-wrap: break-word;">
-    <i class="fa fa-fw fa-building-o" aria-hidden="true"></i> {{ author.employer }}
-  </li>
-{% endif %}
+      <li><i class="fa fa-fw fa-building-o" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
