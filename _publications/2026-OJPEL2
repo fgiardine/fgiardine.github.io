@@ -1,0 +1,15 @@
+---
+title: "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters"
+collection: publications
+category: manuscripts
+permalink: /publication/2026-OJPEL2
+excerpt: ''
+date: 2026-01-09
+authors: 'F. Giardine, S. Krishnan, Y. Wu, L. Horowitz and R. C. N. Pilawa-Podgurski'
+venue: 'IEEE Open Journal of Power Electronics'
+slidesurl: ''
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11313473'
+citation: 'F. Giardine, S. Krishnan, Y. Wu, L. Horowitz and R. C. N. Pilawa-Podgurski, "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters," in IEEE Open Journal of Power Electronics, vol. 7, pp. 267-280, 2026, doi: 10.1109/OJPEL.2025.3646981'
+---
+
+This work proposes a variable switching frequency scheme for a flying capacitor multilevel (FCML) converter in dc-ac operation to better utilize the output inductor for its rated peak-to-peak current ripple and substantially reduce converter losses over the ac modulation cycle. The proposed technique holds the inductor current ripple constant by leveraging the duty-cycle-dependent inductor current ripple and varies the switching frequency to hold this current ripple constant at its rated design value. Furthermore, this technique can be leveraged to spread conducted electromagnetic interference peaks at both the input and output ports of the inverter. Practical lower switching limits are derived and taken into consideration in developing this approach, and experimental results validate the feasibility in a common microcontroller framework. Hardware results are provided for both 6-level and 8-level FCML inverters and showcase loss reductions and improved electromagnetic interference performance.
