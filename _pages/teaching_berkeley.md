@@ -2,9 +2,6 @@
 permalink: /teaching/
 title: "Teaching"
 author_profile: true
-redirect_from: 
-  - /teaching/
-  - /teaching.html
 ---
 My pedagogical values are grounded in 1) hands-on learning opportunities, 2) solving real-world problems, and 3) treating learning as a collective effort. These philosophies translate directly into my classroom approach. I encourage students to get their hands dirty with tough concepts, ask questions freely, and to learn from each other. To uphold my end of the "collective" part of learning, I put time and effort into my own continued education in teaching. 
 
