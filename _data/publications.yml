@@ -1,5 +1,5 @@
-- title: "High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems"
-  authors: "Sahana Krishnan, Francesca Giardine, Tahmid Mahbub, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
+- title: "A High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems"
+  authors: "Sahana Krishnan, **Francesca Giardine**, Tahmid Mahbub, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
   venue: "IEEE Open Journal of Power Electronics"
   year: 2026
   volume: "7"
@@ -9,7 +9,7 @@
   citation: 'S. Krishnan, F. Giardine, T. Mahbub, L. Horowitz, and R. C. N. Pilawa-Podgurski, "High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems," in IEEE Open Journal of Power Electronics, vol. 7, pp. 2701-2713, 2026, doi: 10.1109/OJPEL.2026.3733626.'
 
 - title: "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters"
-  authors: "Francesca Giardine, Sahana Krishnan, Yixuan Wu, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
+  authors: "**Francesca Giardine**, Sahana Krishnan, Yixuan Wu, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
   venue: "IEEE Open Journal of Power Electronics"
   year: 2025
   pages: "267-280"
@@ -18,7 +18,7 @@
   citation: 'F. Giardine, S. Krishnan, Y. Wu, L. Horowitz, and R. C. N. Pilawa-Podgurski, "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters," in IEEE Open Journal of Power Electronics, pp. 267-280, 2025, doi: 10.1109/OJPEL.2025.3646981.'
 
 - title: "DC-Link Capacitors for Twice-Line Frequency Power Decoupling: Design-Oriented Figures-of-Merit With Empirical Application"
-  authors: "Nathan C. Brooks, Francesca Giardine, and Robert C. N. Pilawa-Podgurski"
+  authors: "Nathan C. Brooks, **Francesca Giardine**, and Robert C. N. Pilawa-Podgurski"
   venue: "IEEE Transactions on Power Electronics"
   year: 2024
   volume: "39"
@@ -28,16 +28,15 @@
   type: "journal"
   citation: 'N. C. Brooks, F. Giardine, and R. C. N. Pilawa-Podgurski, "DC-Link Capacitors for Twice-Line Frequency Power Decoupling: Design-Oriented Figures-of-Merit With Empirical Application," in IEEE Transactions on Power Electronics, vol. 39, no. 6, pp. 6569-6573, 2024, doi: 10.1109/TPEL.2023.3305153.'
 
-
 - title: "Transitioning from Capstone Design Courses to Workplaces: A Study of New Engineers’ First Three Months"
-  authors: "Julie Ford, Marie Paretti, Daria Kotys-Schwartz, Susannah Howe, Christopher Gerwitz, Jessica Deters, T. Mahmud, Robin Ott, Nicholas Alvarez, Daniel Knight, C. Hernandez, Laura Rosenbauer, Anne Kary, and Francesca Giardine"
+  authors: "Julie Ford, Marie Paretti, Daria Kotys-Schwartz, Susannah Howe, Christopher Gerwitz, Jessica Deters, T. Mahmud, Robin Ott, Nicholas Alvarez, Daniel Knight, C. Hernandez, Laura Rosenbauer, Anne Kary, and **Francesca Giardine**"
   venue: "International Journal of Engineering Education"
   year: 2019
   type: "journal"
   citation: 'J. Ford et al., "Transitioning from Capstone Design Courses to Workplaces: A Study of New Engineers’ First Three Months," in International Journal of Engineering Education, 2019.'
 
 - title: "A High-Performance 6-Level Flying Capacitor Multilevel Totem-Pole Bidirectional DC-AC Converter for Single-Phase Systems"
-  authors: "Yayun Zhao, Jack Armstrong, Francesca Giardine, and Robert C. N. Pilawa-Podgurski"
+  authors: "Yayun Zhao, Jack Armstrong, **Francesca Giardine**, and Robert C. N. Pilawa-Podgurski"
   venue: "2026 IEEE Applied Power Electronics Conference and Exposition (APEC)"
   year: 2026
   pages: "71-77"
@@ -46,7 +45,7 @@
   citation: 'Y. Zhao, J. Armstrong, F. Giardine, and R. C. N. Pilawa-Podgurski, "A High-Performance 6-Level Flying Capacitor Multilevel Totem-Pole Bidirectional DC-AC Converter for Single-Phase Systems," in 2026 IEEE Applied Power Electronics Conference and Exposition (APEC), pp. 71-77, 2026, doi: 10.1109/APEC51134.2026.11516908.'
 
 - title: "A High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems"
-  authors: "Sahana Krishnan, Francesca Giardine, S. Tahmid Mahbub, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
+  authors: "Sahana Krishnan, **Francesca Giardine**, S. Tahmid Mahbub, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
   venue: "2026 IEEE Applied Power Electronics Conference and Exposition (APEC)"
   year: 2026
   pages: "3621-3627"
@@ -55,7 +54,7 @@
   citation: 'S. Krishnan, F. Giardine, S. T. Mahbub, L. Horowitz, and R. C. N. Pilawa-Podgurski, "A High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems," in 2026 IEEE Applied Power Electronics Conference and Exposition (APEC), pp. 3621-3627, 2026, doi: 10.1109/APEC51134.2026.11516761.'
 
 - title: "An Analytical Model for Common-Mode EMI in Flying Capacitor Multilevel Converters"
-  authors: "Francesca Giardine, Sahana Krishnan, Marrin Nerenberg, and Robert C. N. Pilawa-Podgurski"
+  authors: "**Francesca Giardine**, Sahana Krishnan, Marrin Nerenberg, and Robert C. N. Pilawa-Podgurski"
   venue: "2025 IEEE 26th Workshop on Control and Modeling for Power Electronics (COMPEL)"
   year: 2025
   pages: "1-7"
@@ -64,7 +63,7 @@
   citation: 'F. Giardine, S. Krishnan, M. Nerenberg, and R. C. N. Pilawa-Podgurski, "An Analytical Model for Common-Mode EMI in Flying Capacitor Multilevel Converters," in 2025 IEEE 26th Workshop on Control and Modeling for Power Electronics (COMPEL), pp. 1-7, 2025, doi: 10.1109/COMPEL57166.2025.11121281.'
 
 - title: "Analysis of Steady-State Balancing in the Flying Capacitor Multilevel Converter Considering Capacitor Voltage Ripple"
-  authors: "Elisa Krause, Nathan Biesterfeld, Francesca Giardine, and Robert C. N. Pilawa-Podgurski"
+  authors: "Elisa Krause, Nathan Biesterfeld, **Francesca Giardine**, and Robert C. N. Pilawa-Podgurski"
   venue: "2025 IEEE 26th Workshop on Control and Modeling for Power Electronics (COMPEL)"
   year: 2025
   pages: "1-8"
@@ -73,7 +72,7 @@
   citation: 'E. Krause, N. Biesterfeld, F. Giardine, and R. C. N. Pilawa-Podgurski, "Analysis of Steady-State Balancing in the Flying Capacitor Multilevel Converter Considering Capacitor Voltage Ripple," in 2025 IEEE 26th Workshop on Control and Modeling for Power Electronics (COMPEL), pp. 1-8, 2025, doi: 10.1109/COMPEL57166.2025.11121246.'
 
 - title: "Design and Implementation of a GaN-Based, Cascaded Isolated DC-DC Converter for Satellite Applications"
-  authors: "Sahana Krishnan, Francesca Giardine, Jiarui Zou, Rose A. Abramson, and Robert C. N. Pilawa-Podgurski"
+  authors: "Sahana Krishnan, **Francesca Giardine**, Jiarui Zou, Rose A. Abramson, and Robert C. N. Pilawa-Podgurski"
   venue: "2025 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+EATS)"
   year: 2025
   pages: "1-6"
@@ -82,7 +81,7 @@
   citation: 'S. Krishnan, F. Giardine, J. Zou, R. A. Abramson, and R. C. N. Pilawa-Podgurski, "Design and Implementation of a GaN-Based, Cascaded Isolated DC-DC Converter for Satellite Applications," in 2025 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+EATS), pp. 1-6, 2025, doi: 10.1109/ITEC63604.2025.11097988.'
 
 - title: "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters"
-  authors: "Francesca Giardine, Sahana Krishnan, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
+  authors: "**Francesca Giardine**, Sahana Krishnan, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
   venue: "2025 IEEE Applied Power Electronics Conference and Exposition (APEC)"
   year: 2025
   pages: "151-156"
@@ -91,7 +90,7 @@
   citation: 'F. Giardine, S. Krishnan, L. Horowitz, and R. C. N. Pilawa-Podgurski, "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters," in 2025 IEEE Applied Power Electronics Conference and Exposition (APEC), pp. 151-156, 2025, doi: 10.1109/APEC48143.2025.10977102.'
 
 - title: "A Variable Switching Frequency Control Technique for DC-AC Flying Capacitor Multilevel Converters to Improve Efficiency and Inductor Utilization"
-  authors: "Francesca Giardine, Yixuan Wu, and Robert C. N. Pilawa-Podgurski"
+  authors: "**Francesca Giardine**, Yixuan Wu, and Robert C. N. Pilawa-Podgurski"
   venue: "2024 IEEE Energy Conversion Congress and Exposition (ECCE)"
   year: 2024
   pages: "3473-3478"
@@ -100,7 +99,7 @@
   citation: 'F. Giardine, Y. Wu, and R. C. N. Pilawa-Podgurski, "A Variable Switching Frequency Control Technique for DC-AC Flying Capacitor Multilevel Converters to Improve Efficiency and Inductor Utilization," in 2024 IEEE Energy Conversion Congress and Exposition (ECCE), pp. 3473-3478, 2024, doi: 10.1109/ECCE55643.2024.10861273.'
 
 - title: "A Two-Stage Non-Isolated Hybrid Switched-Capacitor Microinverter Utilizing a Fixed-Ratio Resonant DC-DC Stage with Startup Functionality and Flying Capacitor Multilevel DC-AC Stage"
-  authors: "Francesca Giardine, Kelly Fernandez, and Robert C. N. Pilawa-Podgurski"
+  authors: "**Francesca Giardine**, Kelly Fernandez, and Robert C. N. Pilawa-Podgurski"
   venue: "2024 Energy Conversion Congress & Expo Europe (ECCE Europe)"
   year: 2024
   pages: "1-7"
@@ -110,7 +109,7 @@
   citation: 'F. Giardine, K. Fernandez, and R. C. N. Pilawa-Podgurski, "A Two-Stage Non-Isolated Hybrid Switched-Capacitor Microinverter Utilizing a Fixed-Ratio Resonant DC-DC Stage with Startup Functionality and Flying Capacitor Multilevel DC-AC Stage," in 2024 Energy Conversion Congress & Expo Europe (ECCE Europe), pp. 1-7, 2024 [Best Paper Award], doi: 10.1109/ECCEEurope62508.2024.10752033.'
 
 - title: "Utilizing Harmonic Injection to Reduce Energy Storage and Required Capacitance in an Active Series-Stacked Energy Buffer for Single-Phase Systems"
-  authors: "Francesca Giardine, Nathan C. Brooks, Kelly Fernandez, and Robert C. N. Pilawa-Podgurski"
+  authors: "**Francesca Giardine**, Nathan C. Brooks, Kelly Fernandez, and Robert C. N. Pilawa-Podgurski"
   venue: "2022 IEEE 23rd Workshop on Control and Modeling for Power Electronics (COMPEL)"
   year: 2022
   pages: "1-7"
@@ -119,14 +118,14 @@
   citation: 'F. Giardine, N. C. Brooks, K. Fernandez, and R. C. N. Pilawa-Podgurski, "Utilizing Harmonic Injection to Reduce Energy Storage and Required Capacitance in an Active Series-Stacked Energy Buffer for Single-Phase Systems," in 2022 IEEE 23rd Workshop on Control and Modeling for Power Electronics (COMPEL), pp. 1-7, 2022, doi: 10.1109/COMPEL53829.2022.9829980.'
 
 - title: "Women’s Unique Challenges in the Transitions to Engineering Work"
-  authors: "Christopher Gerwitz, Francesca Giardine, Robin Ott, and Anne Kary"
+  authors: "Christopher Gerwitz, **Francesca Giardine**, Robin Ott, and Anne Kary"
   venue: "2020 ASEE Annual Conference & Exposition"
   year: 2020
   type: "conference"
   citation: 'C. Gerwitz, F. Giardine, R. Ott, and A. Kary, "Women’s Unique Challenges in the Transitions to Engineering Work," in 2020 ASEE Annual Conference & Exposition, 2020.'
 
 - title: "Women’s Experiences in the Transition from Capstone Design Courses to Engineering Workplaces"
-  authors: "Susannah Howe, Marie Paretti, Robin Ott, Jessica Deters, Chris Gerwitz, Francesca Giardine, Christian Hernandez, and Anne Kary"
+  authors: "Susannah Howe, Marie Paretti, Robin Ott, Jessica Deters, Chris Gerwitz, **Francesca Giardine**, Christian Hernandez, and Anne Kary"
   venue: "2019 ASEE Annual Conference & Exposition"
   year: 2019
   doi: "20.500.12592/23pjcnp"
