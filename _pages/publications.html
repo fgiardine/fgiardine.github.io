@@ -11,64 +11,39 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Journal Articles</h2>
+<h2>Publications</h2>
 <hr />
-{% assign journals = site.data.publications | where: "ENTRYTYPE", "article" %}
-{% for entry in journals %}
+
+{% for item in site.data.publications %}
   <div class="list__item" style="margin-bottom: 1.25em;">
     <article class="archive__item">
-      <!-- 1. Title -->
-      <h3 class="archive__item-title" style="margin-bottom: 0.2em; font-size: 1.1em;">
-        {% if entry.doi != blank %}
-          <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.title | replace: "{", "" | replace: "}", "" }}</a>
+
+      <!-- 1. Title (links to DOI if present) -->
+      <h3 class="archive__item-title" style="margin-bottom: 0.25em; font-size: 1.1em;">
+        {% if item.doi and item.doi != "" %}
+          <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
         {% else %}
-          {{ entry.title | replace: "{", "" | replace: "}", "" }}
+          {{ item.title }}
         {% endif %}
       </h3>
 
-      <!-- 2. Metadata Block (Authors, Venue, Citation with compact spacing) -->
+      <!-- 2. Authors, Venue, Citation (Tight layout, no download links) -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
-        {% if entry.author %}
-          {{ entry.author }}<br />
+        {% if item.authors %}
+          {{ item.authors }}<br />
         {% endif %}
 
-        {% if entry.journal != blank %}
-          Published in <i>{{ entry.journal }}</i>{% if entry.year != blank %}, {{ entry.year }}{% endif %}{% if entry.note != blank %} {{ entry.note }}{% endif %}<br />
+        {% if item.venue %}
+          Published in <i>{{ item.venue }}</i>{% if item.year %}, {{ item.year }}{% endif %}{% if item.note %} {{ item.note }}{% endif %}<br />
+        {% elsif item.note %}
+          {{ item.note }}<br />
         {% endif %}
 
-        Recommended citation: {{ entry.author }}, "{{ entry.title | replace: "{", "" | replace: "}", "" }}," <i>{{ entry.journal }}</i>{% if entry.volume != blank %}, vol. {{ entry.volume }}{% endif %}{% if entry.pages != blank %}, pp. {{ entry.pages }}{% endif %}{% if entry.year != blank %}, {{ entry.year }}{% endif %}.
+        {% if item.citation %}
+          Recommended citation: {{ item.citation }}
+        {% endif %}
       </p>
-    </article>
-  </div>
-{% endfor %}
 
-<h2>Conference Proceedings</h2>
-<hr />
-{% assign conferences = site.data.publications | where: "ENTRYTYPE", "inproceedings" %}
-{% for entry in conferences %}
-  <div class="list__item" style="margin-bottom: 1.25em;">
-    <article class="archive__item">
-      <!-- 1. Title -->
-      <h3 class="archive__item-title" style="margin-bottom: 0.2em; font-size: 1.1em;">
-        {% if entry.doi != blank %}
-          <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.title | replace: "{", "" | replace: "}", "" }}</a>
-        {% else %}
-          {{ entry.title | replace: "{", "" | replace: "}", "" }}
-        {% endif %}
-      </h3>
-
-      <!-- 2. Metadata Block -->
-      <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
-        {% if entry.author %}
-          {{ entry.author }}<br />
-        {% endif %}
-
-        {% if entry.booktitle != blank %}
-          In <i>{{ entry.booktitle }}</i>{% if entry.year != blank %}, {{ entry.year }}{% endif %}{% if entry.note != blank %} <b>{{ entry.note }}</b>{% endif %}<br />
-        {% endif %}
-
-        Recommended citation: {{ entry.author }}, "{{ entry.title | replace: "{", "" | replace: "}", "" }}," in <i>{{ entry.booktitle }}</i>{% if entry.pages != blank %}, pp. {{ entry.pages }}{% endif %}{% if entry.year != blank %}, {{ entry.year }}{% endif %}.
-      </p>
     </article>
   </div>
 {% endfor %}
