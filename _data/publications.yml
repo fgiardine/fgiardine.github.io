@@ -1,0 +1,43 @@
+- title: "High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems"
+  authors: "Sahana Krishnan, Francesca Giardine, Tahmid Mahbub, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
+  venue: "IEEE Open Journal of Power Electronics"
+  year: 2026
+  doi: "10.1109/OJPEL.2026.3733626"
+  citation: 'S. Krishnan, F. Giardine, T. Mahbub, L. Horowitz, and R. C. N. Pilawa-Podgurski, "High-Performance Flying Capacitor Multilevel Dual Active Bridge DC-DC Converter for Isolated Automotive Systems," in IEEE Open Journal of Power Electronics, vol. 7, pp. 2701-2713, 2026.'
+
+- title: "A Two-Stage Non-Isolated Hybrid Switched-Capacitor Microinverter Utilizing a Multi-Resonant DC-DC Stage with Startup Functionality"
+  authors: "Francesca Giardine, Kelly Fernandez, and Robert C. N. Pilawa-Podgurski"
+  venue: "IEEE Open Journal of Power Electronics"
+  year: 2026
+  note: "[Conditionally Accepted]"
+  citation: 'F. Giardine, K. Fernandez, and R. C. N. Pilawa-Podgurski, "A Two-Stage Non-Isolated Hybrid Switched-Capacitor Microinverter..." [Conditionally Accepted]'
+
+- title: "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters"
+  authors: "Francesca Giardine, Sahana Krishnan, Yixuan Wu, Logan Horowitz, and Robert C. N. Pilawa-Podgurski"
+  venue: "IEEE Open Journal of Power Electronics"
+  year: 2025
+  doi: "10.1109/OJPEL.2025.3646981"
+  citation: 'F. Giardine, S. Krishnan, Y. Wu, L. Horowitz, and R. C. N. Pilawa-Podgurski, "A Variable Frequency Technique for EMI and Efficiency Improvements in High-Level Count Flying Capacitor Multilevel Converters," in IEEE Open Journal of Power Electronics, vol. 7, pp. 267-280, 2026.'
+
+- title: "DC-Link Capacitors for Twice-Line Frequency Power Decoupling: Design-Oriented Figures-of-Merit With Empirical Application"
+  authors: "Nathan C. Brooks, Francesca Giardine, and Robert C. N. Pilawa-Podgurski"
+  venue: "IEEE Transactions on Power Electronics"
+  year: 2024
+  doi: "10.1109/TPEL.2023.3305153"
+  citation: 'N. C. Brooks, F. Giardine, and R. C. N. Pilawa-Podgurski, "DC-Link Capacitors for Twice-Line Frequency Power Decoupling: Design-Oriented Figures-of-Merit With Empirical Application," in IEEE Transactions on Power Electronics, vol. 39, no. 6, pp. 6569-6573, 2024.'
+
+- title: "On the Scaling of Common-Mode EMI in the Flying Capacitor Multilevel Converter"
+  authors: "Francesca Giardine, Sahana Krishnan, Marrin Nerenberg, and Robert C. N. Pilawa-Podgurski"
+  note: "[Submitted]"
+  citation: 'F. Giardine, S. Krishnan, M. Nerenberg, and R. C. N. Pilawa-Podgurski, "On the Scaling of Common-Mode EMI in the Flying Capacitor Multilevel Converter." [Submitted]'
+
+- title: "Analysis of Steady-State Balancing in the Flying Capacitor Multilevel Converter Considering Capacitor Voltage Ripple"
+  authors: "Elisa Krause, Francesca Giardine, Nathan Biesterfeld, and Robert C. N. Pilawa-Podgurski"
+  note: "[In Revision]"
+  citation: 'E. Krause, F. Giardine, N. Biesterfeld, and R. C. N. Pilawa-Podgurski, "Analysis of Steady-State Balancing in the Flying Capacitor Multilevel Converter Considering Capacitor Voltage Ripple." [In Revision]'
+
+- title: "Transitioning from Capstone Design Courses to Workplaces: A Study of New Engineers’ First Three Months"
+  authors: "Julie Ford, Marie Paretti, Daria Kotys-Schwartz, Susannah Howe, Christopher Gerwitz, Jessica Deters, T. Mahmud, Robin Ott, Nicholas Alvarez, Daniel Knight, C. Hernandez, Laura Rosenbauer, Anne Kary, and Francesca Giardine"
+  venue: "International Journal of Engineering Education"
+  year: 2019
+  citation: 'J. Ford et al., "Transitioning from Capstone Design Courses to Workplaces: A Study of New Engineers’ First Three Months," in International Journal of Engineering Education, 2019.'
