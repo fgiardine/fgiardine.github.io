@@ -11,26 +11,64 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Journal Articles</h2>
+<hr />
+{% assign journals = site.data.publications | where: "ENTRYTYPE", "article" %}
+{% for entry in journals %}
+  <div class="list__item" style="margin-bottom: 1.25em;">
+    <article class="archive__item">
+      <!-- 1. Title -->
+      <h3 class="archive__item-title" style="margin-bottom: 0.2em; font-size: 1.1em;">
+        {% if entry.doi != blank %}
+          <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.title | replace: "{", "" | replace: "}", "" }}</a>
+        {% else %}
+          {{ entry.title | replace: "{", "" | replace: "}", "" }}
+        {% endif %}
+      </h3>
 
+      <!-- 2. Metadata Block (Authors, Venue, Citation with compact spacing) -->
+      <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
+        {% if entry.author %}
+          {{ entry.author }}<br />
+        {% endif %}
 
+        {% if entry.journal != blank %}
+          Published in <i>{{ entry.journal }}</i>{% if entry.year != blank %}, {{ entry.year }}{% endif %}{% if entry.note != blank %} {{ entry.note }}{% endif %}<br />
+        {% endif %}
 
+        Recommended citation: {{ entry.author }}, "{{ entry.title | replace: "{", "" | replace: "}", "" }}," <i>{{ entry.journal }}</i>{% if entry.volume != blank %}, vol. {{ entry.volume }}{% endif %}{% if entry.pages != blank %}, pp. {{ entry.pages }}{% endif %}{% if entry.year != blank %}, {{ entry.year }}{% endif %}.
+      </p>
+    </article>
+  </div>
+{% endfor %}
+
+<h2>Conference Proceedings</h2>
+<hr />
+{% assign conferences = site.data.publications | where: "ENTRYTYPE", "inproceedings" %}
+{% for entry in conferences %}
+  <div class="list__item" style="margin-bottom: 1.25em;">
+    <article class="archive__item">
+      <!-- 1. Title -->
+      <h3 class="archive__item-title" style="margin-bottom: 0.2em; font-size: 1.1em;">
+        {% if entry.doi != blank %}
+          <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.title | replace: "{", "" | replace: "}", "" }}</a>
+        {% else %}
+          {{ entry.title | replace: "{", "" | replace: "}", "" }}
+        {% endif %}
+      </h3>
+
+      <!-- 2. Metadata Block -->
+      <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
+        {% if entry.author %}
+          {{ entry.author }}<br />
+        {% endif %}
+
+        {% if entry.booktitle != blank %}
+          In <i>{{ entry.booktitle }}</i>{% if entry.year != blank %}, {{ entry.year }}{% endif %}{% if entry.note != blank %} <b>{{ entry.note }}</b>{% endif %}<br />
+        {% endif %}
+
+        Recommended citation: {{ entry.author }}, "{{ entry.title | replace: "{", "" | replace: "}", "" }}," in <i>{{ entry.booktitle }}</i>{% if entry.pages != blank %}, pp. {{ entry.pages }}{% endif %}{% if entry.year != blank %}, {{ entry.year }}{% endif %}.
+      </p>
+    </article>
+  </div>
+{% endfor %}
