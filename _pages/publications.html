@@ -29,7 +29,7 @@ author_profile: true
         {% endif %}
       </h3>
 
-      <!-- 2. Authors, Venue, Citation -->
+      <!-- 2. Authors, Venue, DOI -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
           {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' }}<br />
@@ -41,8 +41,8 @@ author_profile: true
           {{ item.note }}<br />
         {% endif %}
 
-        {% if item.citation %}
-          Recommended citation: {{ item.citation }}
+        {% if item.doi and item.doi != "" %}
+          DOI: <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">https://doi.org/{{ item.doi }}</a>
         {% endif %}
       </p>
 
@@ -68,7 +68,7 @@ author_profile: true
         {% endif %}
       </h3>
 
-      <!-- 2. Authors, Venue, Citation -->
+      <!-- 2. Authors, Venue, DOI -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
           {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' }}<br />
@@ -80,8 +80,8 @@ author_profile: true
           {{ item.note }}<br />
         {% endif %}
 
-        {% if item.citation %}
-          Recommended citation: {{ item.citation }}
+        {% if item.doi and item.doi != "" %}
+          DOI: <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">https://doi.org/{{ item.doi }}</a>
         {% endif %}
       </p>
 
