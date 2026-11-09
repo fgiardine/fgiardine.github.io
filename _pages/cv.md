@@ -15,5 +15,5 @@ author_profile: true
 
 <object data="{{ site.baseurl }}/files/paper1.pdf" type="application/pdf" width="100%" height="900px" style="border: 1px solid #ccc;">
   <embed src="{{ site.baseurl }}/files/paper1.pdf" type="application/pdf" width="100%" height="900px" />
-    <p>Your browser does not support PDFs. <a href="{{ site.baseurl }}/files/paper1.pdf">Download the PDF</a> instead.</p>
+    <p>Your browser does not support PDFs. <a href="{{ site.baseurl }}/files/FRGiardine_CV_Website.pdf">Download the PDF</a> instead.</p>
 </object>
