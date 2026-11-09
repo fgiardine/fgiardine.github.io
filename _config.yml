@@ -25,11 +25,11 @@ repository               : "fgiardine/fgiardine.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "giardine_headshot.jpg"
+  avatar           : "image.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Postdoctoral Researcher"
+  location         : "Illinois, USA"
   employer         : "University of Illinois Urbana-Champaign"
   uri              : # URL
   email            : "giardine@illinois.edu" 
