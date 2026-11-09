@@ -8,29 +8,75 @@ My pedagogical values are grounded in 1) hands-on learning opportunities, 2) sol
 
 On a personal note, I benefitted tremendously from my experience as an undergraduate student at Smith College, a liberal arts institution. At a small school, I had the opportunity to get to know my professors, and their support was essential in my success. This caring approach to instruction and mentorship resonated with me deeply, and I strive to apply it in my own practice.
 
-Introduction to Electric Power and Renewable Energy (GSI, Spring 2024, Spring 2025)
+Electromagnetic Interference for High-Performance Converters
 ======
-
-<a href="https://www2.eecs.berkeley.edu/Courses/EE108/">EE 108: Introduction to Electric Power and Renewable Energy:</a> is the first EECS course in the power and energy sequence at UC Berkeley. It was first offered in Spring 2024, and I had the honor of being head GSI both semesters under Professor Pilawa-Podgurski. This course is designed to introduce students to modeling loads as complex impedances, developing fluency in analyzing how our homes interact with distribution grids, and understanding the role that power conversion plays in enabling the renewable energy transition.
-
-Weekly live lecture demonstrations make key concepts tangible. We prioritize demonstrations that make use of single-phase electricity and familiar devices. Every semester, these elicit tons of insightful questions, and really bring big ideas home for students. 
-
-As a GSI, I am most proud that many students in the course begin without prior circuit theory exposure, and by the end of the course are able to confidently analyze the operation of AC-DC/DC-AC power converters. 
+Electromagnetic interference (EMI) is critical in all application where power converters are connected to other equipment. In my work I have explored how EMI can be improved through variable frequency control in FCML converters. I have additionally analyzed fundamental EMI generation for FCML converters, and developed analytical models describing this.
 
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/demo.png" width="80%"/><br/>
-Lightbulb dimmer demo showing the use of phase-controlled rectifiers. <br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/emi_bench.png" width="80%"/><br/>
+EMI test bench. <br/>
+</center>
+</div>
+</div>
+<br/>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/emi_results.png" width="60%"/><br/>
+EMI scan results showing the reduction in switching-frequency harmonic peaks as a result of variable frequency control. <br/>
 </center>
 </div>
 </div>
 <br/>
 
-Formal Pedagogical Training & Professional Development
+Flying Capacitor Multilevel Converters in DC-AC/AC-DC Applications
 ======
-* **Scholarship and Teaching for Engineering Postdocs (STEP) Program** | *UIUC*  
-Selective postdoctoral program focused on evidence-based teaching methodologies, course design, and advanced pedagogical strategies for engineering educators.
+The flying capacitor multilevel (FCML) converter is a type of hybrid switched capacitor converter that is known for high efficiencies and volumetric power densities. This is accomplished through the use of lower voltage, high figure-of-merit switching devices. The FCML converter performs much of its energy conditioning via energy-dense capacitors that enable higher volumetric power densities, which is essential in volume-sensitive applications such as electrified transportation. In some of my work, I have explored how variable switching frequencies can be used to improve converter efficiency without violating key component current and voltage ripple constraints. 
 
-* **Certificate in Teaching and Learning in Higher Education** | *UC Berkeley* — *Fall 2025*  
-Completed an optional certificate program to better prepare myself to develop and teach undergraduate courses. Beyond additional training, I have had the opportunity to work on course design and hone my pedagogical philosophies. 
+<div class="container">
+<div class="row">
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/blue_6lvl.png" width="40%"/><br/>
+6-level gallium-nitride based FCML inverter used in a 2-stage microinverter solution. <br/>
+</center>
+</div>
+</div>
+<br/>
+
+<div class="container">
+<div class="row">
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/jack_yayun.png" width="40%"/><br/>
+A picture of Yayun Zhao, Jack Armstrong, and myself after our last day of testing. <br/>
+</center>
+</div>
+</div>
+<br/>
+
+<div class="container">
+<div class="row">
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/jack_yayun.png" width="40%"/><br/>
+A picture of Yayun Zhao, Jack Armstrong, and myself after our last day of testing. <br/>
+</center>
+</div>
+</div>
+<br/>
+
+<div class="container">
+<div class="row">
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/yayun_fcml.jpg" width="40%"/><br/>
+A 3.3 kW, 98.9% efficient DC-AC FCML converter designed by Yayun Zhao. <br/>
+</center>
+</div>
+</div>
+<br/>
+
+
+
