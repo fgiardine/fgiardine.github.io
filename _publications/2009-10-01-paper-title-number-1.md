@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2026-01
+date: 2026-01-06
 venue: 'IEEE Open Journal of Power Electronics'
 slidesurl: ''
 paperurl: '10.1109/OJPEL.2025.3646981'
