@@ -18,7 +18,7 @@ When I'm not tinkering with circuits, I'm an avid hiker and a self-proclaimed sl
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/pcb.png" width="60%"/><br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/pcb2.png" width="60%"/><br/>
 </center>
 </div>
 </div>
