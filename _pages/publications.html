@@ -5,22 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- Journal Articles Section -->
-<h2>Journal Articles</h2>
-<hr />
+{% if site.author.googlescholar %}
+  <div class="wordwrap" style="margin-bottom: 1.5em;">
+    You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.
+  </div>
+{% endif %}
 
+<!-- Journal Articles Section -->
 {% assign journals = site.data.publications | where: "type", "journal" | sort: "year" | reverse %}
+{% if journals.size > 0 %}
+<h2>Journal Articles</h2>
+<hr style="margin-bottom: 1.5em;" />
+
 {% for item in journals %}
   <div class="list__item" style="margin-bottom: 1.25em;">
     <article class="archive__item">
 
-      <!-- 1. Title -->
+      <!-- Title -->
       <h3 class="archive__item-title" style="margin-bottom: 0.25em; font-size: 1.1em;">
         {% if item.doi and item.doi != "" %}
           <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
@@ -29,10 +32,10 @@ author_profile: true
         {% endif %}
       </h3>
 
-      <!-- 2. Authors, Venue, DOI -->
+      <!-- Authors, Venue, DOI -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
-          {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' }}<br />
+          {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' | replace: 'Francesca Giardine', '<strong>Francesca Giardine</strong>' }}<br />
         {% endif %}
 
         {% if item.venue %}
@@ -49,17 +52,19 @@ author_profile: true
     </article>
   </div>
 {% endfor %}
+{% endif %}
 
 <!-- Conference Proceedings Section -->
-<h2>Conference Proceedings</h2>
-<hr />
-
 {% assign conferences = site.data.publications | where: "type", "conference" | sort: "year" | reverse %}
+{% if conferences.size > 0 %}
+<h2 style="margin-top: 2em;">Conference Proceedings</h2>
+<hr style="margin-bottom: 1.5em;" />
+
 {% for item in conferences %}
   <div class="list__item" style="margin-bottom: 1.25em;">
     <article class="archive__item">
 
-      <!-- 1. Title -->
+      <!-- Title -->
       <h3 class="archive__item-title" style="margin-bottom: 0.25em; font-size: 1.1em;">
         {% if item.doi and item.doi != "" %}
           <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
@@ -68,10 +73,10 @@ author_profile: true
         {% endif %}
       </h3>
 
-      <!-- 2. Authors, Venue, DOI -->
+      <!-- Authors, Venue, DOI -->
       <p style="margin: 0; line-height: 1.4; font-size: 0.95em;">
         {% if item.authors %}
-          {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' }}<br />
+          {{ item.authors | replace: '**Francesca Giardine**', '<strong>Francesca Giardine</strong>' | replace: 'Francesca Giardine', '<strong>Francesca Giardine</strong>' }}<br />
         {% endif %}
 
         {% if item.venue %}
@@ -88,3 +93,4 @@ author_profile: true
     </article>
   </div>
 {% endfor %}
+{% endif %}
