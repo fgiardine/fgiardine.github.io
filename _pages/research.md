@@ -15,14 +15,12 @@ Electromagnetic interference (EMI) is critical in all application where power co
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/emi_bench.png" width="80%"/><br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/emi_bench.png" width="60%"/><br/>
 EMI test bench. <br/>
 </center>
 </div>
 </div>
 <br/>
-</div>
-</div>
 
 <div class="container">
 <div class="row">
@@ -36,7 +34,7 @@ EMI scan results showing the reduction in switching-frequency harmonic peaks as 
 
 Flying Capacitor Multilevel Converters in DC-AC/AC-DC Applications
 ======
-The flying capacitor multilevel (FCML) converter is a type of hybrid switched capacitor converter that is known for high efficiencies and volumetric power densities. This is accomplished through the use of lower voltage, high figure-of-merit switching devices. The FCML converter performs much of its energy conditioning via energy-dense capacitors that enable higher volumetric power densities, which is essential in volume-sensitive applications such as electrified transportation. In some of my work, I have explored how variable switching frequencies can be used to improve converter efficiency without violating key component current and voltage ripple constraints. 
+The flying capacitor multilevel (FCML) converter is a type of hybrid switched-capacitor converter that is known for high efficiencies and volumetric power densities. This is accomplished through the use of lower voltage, high figure-of-merit switching devices. The FCML converter performs much of its energy conditioning via energy-dense capacitors that enable higher volumetric power densities, which is essential in volume-sensitive applications such as electrified transportation. In some of my work, I have explored how variable switching frequencies can be used to improve converter efficiency without violating key component current and voltage ripple constraints. 
 
 <div class="container">
 <div class="row">
@@ -48,35 +46,18 @@ The flying capacitor multilevel (FCML) converter is a type of hybrid switched ca
 </div>
 <br/>
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/jack_yayun.png" width="40%"/><br/>
-A picture of Yayun Zhao, Jack Armstrong, and myself after our last day of testing. <br/>
-</center>
-</div>
-</div>
-<br/>
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/jack_yayun.png" width="40%"/><br/>
-A picture of Yayun Zhao, Jack Armstrong, and myself after our last day of testing. <br/>
-</center>
-</div>
-</div>
-<br/>
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/yayun_fcml.jpg" width="40%"/><br/>
-A 3.3 kW, 98.9% efficient DC-AC FCML converter designed by Yayun Zhao. <br/>
-</center>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; text-align: center; flex-wrap: wrap; margin-bottom: 1.5em;">
+  <div style="flex: 1; min-width: 250px; max-width: 48%;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/yayun_fcml.jpg" style="width: 100%; height: auto; display: block; margin: 0 auto 8px;" />
+    <span style="font-size: 0.9em; line-height: 1.3; display: block;">A 3.3 kW, 98.9% efficient DC-AC FCML converter designed by Yayun Zhao.</span>
+  </div>
+  
+  <div style="flex: 1; min-width: 250px; max-width: 48%;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/jack_yayun.png" style="width: 100%; height: auto; display: block; margin: 0 auto 8px;" />
+    <span style="font-size: 0.9em; line-height: 1.3; display: block;">A picture of Yayun Zhao, Jack Armstrong, and myself after our last day of testing the 3.3 kW converter.</span>
+  </div>
 </div>
-</div>
-<br/>
-
 
 
