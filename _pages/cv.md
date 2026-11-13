@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <a href="{{ base_path }}/files/FRGiardine_CV_Website.pdf" class="btn btn--primary btn--large" target="_blank">📥 Download Full CV (PDF)</a>
+  <a href="{{ base_path }}/files/FRGiardine_CV_Website_Nov2026.pdf" class="btn btn--primary btn--large" target="_blank">📥 Download Full CV (PDF)</a>
 </div>
 
 <p style="text-align: center;"><small>If the viewer below does not load on your device, use the button above to download or view the PDF directly.</small></p>
