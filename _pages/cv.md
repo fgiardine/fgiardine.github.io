@@ -13,7 +13,7 @@ author_profile: true
 
 <p style="text-align: center;"><small>If the viewer below does not load on your device, use the button above to download or view the PDF directly.</small></p>
 
-<object data="{{ base_path }}/files/FRGiardine_CV_Website.pdf" type="application/pdf" width="100%" height="900px" style="border: 1px solid #ccc;">
-  <embed src="{{ base_path }}/files/FRGiardine_CV_Website.pdf" type="application/pdf" width="100%" height="900px" />
-    <p>Your browser does not support PDFs. <a href="{{ base_path }}/files/FRGiardine_CV_Website.pdf">Download the PDF</a> instead.</p>
+<object data="{{ base_path }}/files/FRGiardine_CV_Website_Nov2026.pdf" type="application/pdf" width="100%" height="900px" style="border: 1px solid #ccc;">
+  <embed src="{{ base_path }}/files/FRGiardine_CV_Website_Nov2026.pdf" type="application/pdf" width="100%" height="900px" />
+    <p>Your browser does not support PDFs. <a href="{{ base_path }}/files/FRGiardine_CV_Website_Nov2026">Download the PDF</a> instead.</p>
 </object>
